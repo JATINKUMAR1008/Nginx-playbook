@@ -13,15 +13,8 @@ in this Ansible_Master is a master system and other are slaves they require .pem
 
 //ansible_inventory
 
-[slaves]
-slave1 ansible_host=public_ip_1 
-slave2 ansible_host=public_ip_2
-slave3 ansible_host=public_ip_3
+![image](https://user-images.githubusercontent.com/97216852/227735326-5f54e4ba-2b8a-48c7-a0a3-1360e7d27a58.png)
 
-[all:vars]
-ansible_python_interpreter=/usr/bin/python3
-ansible_ssh_private_key_file=~/.ssh/ansible_key
-ansible_user=ubuntu
 
 //
 
