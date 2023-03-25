@@ -5,6 +5,8 @@ A Ansible playbook for installing Nginx on Slave hosts and copying a page from m
 Running it on nginx and make it visible on the slave hosts at port number 80.
 
 
+There are one master and three slave instances.
+
 ![image](https://user-images.githubusercontent.com/97216852/227734806-b276031e-2991-48af-ad0e-d8a649b9e71b.png)
 
 in this Ansible_Master is a master system and other are slaves they require .pem key for ssh connection
